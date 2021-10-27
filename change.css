@@ -1,0 +1,141 @@
+html, body, div, h6, h1 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: rgb(187, 187, 187);
+}
+
+.initPost {
+  background-color: white;
+  height: 90px;
+  width: 650px;
+  padding: 10px;
+  margin: 20px 20px 0 20px;
+  border-radius: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+}
+
+.initPost h6 {
+  color: grey;
+}
+
+.initPost h2 {
+  color: black;
+  margin: 10px auto 10px auto;
+}
+
+/* comment action */
+
+.rebutContainer {
+  background-color: grey;
+  min-height: 100vh;
+  width: 670px;
+  margin: 0 20px 0 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.rebuttals {
+  background-color: rgb(223, 223, 223);
+  width: 635px;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.commentDiv {
+  width: 465px;
+  overflow: scroll;
+}
+
+.name {
+  height: 15px;
+  width: 500px;
+  margin: 5px 5px 0 5px;
+  padding: 5px 5px 0 5px;
+  color: grey;
+}
+
+.comment {
+  height: 30px;
+  width: auto;
+  font-size: large;
+  font-weight: 600;
+  margin: 0 5px 5px 5px;
+  color: rgb(39, 39, 39);
+  padding: 0 5px 15px 5px;
+  cursor: default;
+}
+
+.commentEdit {
+  width: 100px;
+  margin-left: 0;
+  display: flex;
+  align-content: flex-end;
+}
+
+.editDel {
+  background-color: rgb(223, 223, 223);
+  height: 10px;
+  color: rgb(67, 67, 207);
+  border: none;
+  padding: 15px 5px 0 0;
+  cursor: pointer;
+}
+
+.guy {
+  margin-bottom: 10px;
+  height: 80px;
+}
+
+/* append/delete comment */
+.noDisplay {
+  display: none;
+}
+
+.appendInput {
+  display: inline;
+  width: 350px;
+  height: 15px;
+  background-color: white;
+  margin: 0 0 10px 10px;
+}
+
+.appendSubmit {
+  display: inline;
+  cursor: pointer;
+}
+
+/* footer */
+.nameComment {
+  background-color: white;
+  width: 646px;
+  padding: 10px;
+  margin: 0 20px 20px;
+  border: 2px solid rgb(80, 80, 80);
+  /* position: fixed;
+  bottom: 0; */
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 5px;
+}
+
+.nameComment #name {
+  margin-right: 5px;
+}
+
+.nameComment #comment {
+  width: 400px;
+}
+
+.nameComment #submit {
+  margin: 5px 15px 5px 8px;
+  cursor: pointer;
+}
+
